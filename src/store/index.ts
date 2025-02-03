@@ -59,6 +59,7 @@ class ExchangeStore {
         tiker_from_price: number;
         tiker_to_price: number;
         exchange_rate: number;
+        //@ts-ignore
       } = await fetchExchangeRate(this.fromCurrency, this.toCurrency);
       runInAction(() => {
         this.exchangeRate = res.exchange_rate;
@@ -90,13 +91,17 @@ class ExchangeStore {
   }
 
   setAmountFrom(value: string) {
+        //@ts-ignore
     this.amountFrom = value;
+        //@ts-ignore
     this.amountTo = value * this.exchangeRate;
   }
 
   setAmountTo(value: string) {
+        //@ts-ignore
     this.amountTo = value;
     if (this.exchangeRate !== 0) {
+        //@ts-ignore
       this.amountFrom = value / this.exchangeRate;
     }
   }
