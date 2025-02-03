@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/crypto-exchange/static/css/main.f855e6bc.css",
+    "main.js": "/crypto-exchange/static/js/main.87de0ea7.js",
+    "static/js/453.7938bd2f.chunk.js": "/crypto-exchange/static/js/453.7938bd2f.chunk.js",
+    "index.html": "/crypto-exchange/index.html",
+    "main.f855e6bc.css.map": "/crypto-exchange/static/css/main.f855e6bc.css.map",
+    "main.87de0ea7.js.map": "/crypto-exchange/static/js/main.87de0ea7.js.map",
+    "453.7938bd2f.chunk.js.map": "/crypto-exchange/static/js/453.7938bd2f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.87de0ea7.js"
+  ]
+}
